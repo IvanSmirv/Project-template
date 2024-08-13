@@ -12,3 +12,10 @@ if (isMobile.any()) {
 } else {
     document.body.classList.add('pc')
 }
+
+if (document.querySelector(".name") !== null) {
+    console.log("The element exists");
+}
+else {
+    console.log("The element does not exist");
+}
